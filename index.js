@@ -25,12 +25,21 @@ const defaultOptions = {
   },
   less: {
     dev: {
+      // Fix Ant Design
+      lessOptions: {
+        javascriptEnabled: true
+      },
       sourceMap: true,
       includePaths: [paths.appNodeModules],
     },
     prod: {
       // XXX Source maps are required for the resolve-url-loader to properly
       // function. Disable them in later stages if you do not want source maps.
+      
+      // Fix Ant Design
+      lessOptions: {
+        javascriptEnabled: true
+      },
       sourceMap: true,
       sourceMapContents: false,
       includePaths: [paths.appNodeModules],
