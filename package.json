@@ -1,6 +1,6 @@
 {
   "name": "razzle-plugin-less",
-  "version": "4.0.0",
+  "version": "5.1.1",
   "description": "Use LESS with Razzle",
   "main": "index.js",
   "repository": "git@github.com:jaredpalmer/razzle.git",
@@ -11,8 +11,8 @@
   },
   "dependencies": {
     "autoprefixer": "^9.7.3",
-    "less": "3",
-    "less-loader": "^5.0.0",
+    "less": "3.0.0",
+    "less-loader": "5.0.0",
     "mini-css-extract-plugin": "^0.4.0",
     "node-less-chokidar": "^0.4.1",
     "postcss-flexbugs-fixes": "^4.1.0",
