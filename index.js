@@ -26,9 +26,7 @@ const defaultOptions = {
   less: {
     dev: {
       // Fix Ant Design
-      lessOptions: {
-        javascriptEnabled: true
-      },
+      javascriptEnabled: true,
       sourceMap: true,
       includePaths: [paths.appNodeModules],
     },
@@ -37,9 +35,7 @@ const defaultOptions = {
       // function. Disable them in later stages if you do not want source maps.
       
       // Fix Ant Design
-      lessOptions: {
-        javascriptEnabled: true
-      },
+      javascriptEnabled: true,
       sourceMap: true,
       sourceMapContents: false,
       includePaths: [paths.appNodeModules],
