@@ -55,12 +55,10 @@ default
 ```js
 {
   dev: {
-    javascriptEnabled: true,
     sourceMap: true,
     ident: 'postcss',
   },
   prod: {
-    javascriptEnabled: true,
     sourceMap: false,
     ident: 'postcss',
   },
@@ -88,10 +86,12 @@ default
 ```js
 {
   dev: {
+    javascriptEnabled: true,
     sourceMap: true,
     includePaths: [paths.appNodeModules],
   },
   prod: {
+    javascriptEnabled: true,
     sourceMap: false,
     includePaths: [paths.appNodeModules],
   },
