@@ -55,10 +55,12 @@ default
 ```js
 {
   dev: {
+    javascriptEnabled: true,
     sourceMap: true,
     ident: 'postcss',
   },
   prod: {
+    javascriptEnabled: true,
     sourceMap: false,
     ident: 'postcss',
   },
