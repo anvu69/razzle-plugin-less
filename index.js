@@ -50,8 +50,7 @@ const defaultOptions = {
     prod: {
       sourceMap: false,
       importLoaders: 1,
-      modules: false,
-      minimize: true,
+      modules: false
     },
   },
   style: {},
@@ -118,7 +117,7 @@ module.exports = (
             lessLoader,
           ]
         : [
-            dev ? styleLoader : MiniCssExtractPlugin.loader,
+            styleLoader,
             cssLoader,
             postCssLoader,
             resolveUrlLoader,
